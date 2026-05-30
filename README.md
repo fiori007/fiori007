@@ -79,10 +79,5 @@ Sou estudante e desenvolvedor apaixonado por tecnologia, com experiência em an�
 
 ![Snake animation](https://github.com/fiori007/fiori007/raw/output/github-contribution-grid-snake.svg)
 
----
-
-⭐ *"O código é poesia escrita para máquinas, mas lida por humanos."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=fiori007&color=58A6FF&style=flat-square)
 
 </div>
