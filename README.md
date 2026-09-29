@@ -10,7 +10,7 @@
 
 Sou estudante e desenvolvedor apaixonado por tecnologia, com experiência em análise de dados, desenvolvimento de aplicativos e computação paralela. Gosto de transformar problemas reais em soluções criativas e funcionais.
 
-- 🎓 Cursando graduação em Ciência da Computação
+- 🎓 Graduado em Ciência da Computação
 - 📊 Entusiasta de **Data Science** e **Machine Learning**
 - 🌱 Sempre aprendendo algo novo
 - 📍 Brasil
