@@ -123,16 +123,21 @@ class LucasFiori:
 ## <img src="https://media.giphy.com/media/fLsd9DexNpE7rXjcMm/giphy.gif" width="28"/> GitHub in numbers
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=fiori007&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fiori007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=10" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=fiori007&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub streak"/>
-</p>
-
-<p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="96%"/>
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="48%"/>
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="48%"/>
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=fiori007&theme=tokyonight&hide_border=true&border_radius=10&ring=A78BFA&fire=F472B6&currStreakLabel=A78BFA" alt="GitHub streak"/>
 </p>
 
 <!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
