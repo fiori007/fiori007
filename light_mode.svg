@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="540px" font-size="16px">
+<style>
+@font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="540px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30"></tspan>
+<tspan x="15" y="50">               ,  :     `</tspan>
+<tspan x="15" y="70">            ,`  ;,:,:;   ,</tspan>
+<tspan x="15" y="90">             :!|     ;,  ;::i</tspan>
+<tspan x="15" y="110">          !:!1i;!|il|!|, ;!  i</tspan>
+<tspan x="15" y="130">          ;:fr!1xkhnnxxt!!!  ||</tspan>
+<tspan x="15" y="150">          :,kmhh%wkkkxrf1    :l</tspan>
+<tspan x="15" y="170">           lwxhk1jhhjjrr1rx ,1;</tspan>
+<tspan x="15" y="190">         1jxhhkhnkmm!fxlftH||i;</tspan>
+<tspan x="15" y="210">          Mrkhmhmh%nntxxfj%!1t</tspan>
+<tspan x="15" y="230">          nkkkknmmhf!infrnmir</tspan>
+<tspan x="15" y="250">         ` `hkknhnnrflftrnxf</tspan>
+<tspan x="15" y="270">          ``:hxhhhxrtft1fm</tspan>
+<tspan x="15" y="290">         ``` %rfxtt1l111tm</tspan>
+<tspan x="15" y="310">             kkxkxf|;;;|ft|:</tspan>
+<tspan x="15" y="330">           ,;ikhnnf1ljt, ;`!:,</tspan>
+<tspan x="15" y="350">        `::!:!;tnhnxj!         `,,</tspan>
+<tspan x="15" y="370">     ,:;;;;;:;||||l:;:   ;,`   `,,,:,,,</tspan>
+<tspan x="15" y="390">,`,:;;;;;;;,;!` il:   : ,:,,,:::::,,,,,</tspan>
+<tspan x="15" y="410">!;;;;;;;;;! :;;;;t   | ;;`:::;`::::,,,:</tspan>
+<tspan x="15" y="430">!;;;;;;;;:| ;;;;i|:,| ,;``::;,;::,:,,,;</tspan>
+<tspan x="15" y="450">;;;;!;;!;:| |:;1li1 !`!: :;;,;:,,````;</tspan>
+<tspan x="15" y="470">:;;;;;;!!:| ;;|1lil !:!`,:;,:::,     ,</tspan>
+<tspan x="15" y="490">;:;;;;!;!;| :!!liii:,!,,:;,:::,     :</tspan>
+<tspan x="15" y="510">;`;;;;!!!!!:,;!1li!,;;,:;,:,,`      :</tspan>
+</text>
+<text x="405" y="30" fill="#24292f">
+<tspan x="405" y="30">lucas@fiori</tspan> -—————————————————————————————————————————-—-
+<tspan x="405" y="50" class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">B.Sc. in Computer Science</tspan>
+<tspan x="405" y="70" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Data, Software, Automation, AI</tspan>
+<tspan x="405" y="90" class="cc">. </tspan>
+<tspan x="405" y="110" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">Python, Java, TypeScript, SQL</tspan>
+<tspan x="405" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Computer</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">HTML, CSS, JSON, YAML, Markdown</tspan>
+<tspan x="405" y="150" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Real</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Portuguese, English, Spanish</tspan>
+<tspan x="405" y="170" class="cc">. </tspan>
+<tspan x="405" y="190" class="cc">. </tspan><tspan class="key">Hobbies</tspan><tspan class="cc">.</tspan><tspan class="key">Software</tspan>:<tspan class="cc"> . </tspan><tspan class="value">Automation, AI Agents, Side Projects</tspan>
+<tspan x="405" y="210" class="cc">. </tspan><tspan class="key">Hobbies</tspan><tspan class="cc">.</tspan><tspan class="key">Data</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Dashboards, Data Visualization</tspan>
+<tspan x="405" y="230" class="cc">. </tspan>
+<tspan x="405" y="250">- Contact</tspan> -———————————————————————————————————————————-—-
+<tspan x="405" y="270" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">.</tspan><tspan class="key">Personal</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">lucasfmm54@gmail.com</tspan>
+<tspan x="405" y="290" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">lucas-fiori</tspan>
+<tspan x="405" y="310" class="cc">. </tspan><tspan class="key">Profile</tspan><tspan class="cc">.</tspan><tspan class="key">Visitors</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">11</tspan>
+<tspan x="405" y="330" class="cc">. </tspan>
+<tspan x="405" y="350">- GitHub Stats</tspan> -——————————————————————————————————————-—-
+<tspan x="405" y="370" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">24</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">1</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">1</tspan>
+<tspan x="405" y="390" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">335</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">8</tspan>
+<tspan x="405" y="410" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> </tspan><tspan class="value">219,802</tspan> ( <tspan class="addColor">487,391++</tspan>, <tspan class="delColor">267,589--</tspan> )
+</text>
+</svg>
