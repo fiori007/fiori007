@@ -92,17 +92,17 @@ I'm a **Computer Science graduate** and a tech enthusiast who enjoys the quiet p
 ## ▪ Night log
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile details" width="96%"/>
+  <img src="./profile-summary-card-output/mono/0-profile-details.svg" alt="Profile details" width="96%"/>
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" width="48%"/>
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time" width="48%"/>
+  <img src="./profile-summary-card-output/mono/3-stats.svg" alt="Stats" width="48%"/>
+  <img src="./profile-summary-card-output/mono/4-productive-time.svg" alt="Productive time" width="48%"/>
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per language" width="48%"/>
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most commit language" width="48%"/>
+  <img src="./profile-summary-card-output/mono/1-repos-per-language.svg" alt="Repos per language" width="48%"/>
+  <img src="./profile-summary-card-output/mono/2-most-commit-language.svg" alt="Most commit language" width="48%"/>
 </p>
 
 <p align="center">

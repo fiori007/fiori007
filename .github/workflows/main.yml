@@ -42,3 +42,20 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: -3
+
+      - name: Build monochrome (night) variant
+        run: |
+          git pull --ff-only
+          rm -rf profile-summary-card-output/mono
+          cp -r profile-summary-card-output/github_dark profile-summary-card-output/mono
+          cd profile-summary-card-output/mono
+          sed -i -E \
+            -e 's/#40[cC]463/#B9BCC3/g' -e 's/#0366[dD]6/#D0D2D6/g' -e 's/#77909[cC]/#8B9098/g' \
+            -e 's/#[eE]34[cC]26/#6B6E75/g' -e 's/#[bB]07219/#A6A9B0/g' -e 's/#3572[aA]5/#C9CBD1/g' \
+            -e 's/#3178[cC]6/#7D8088/g' -e 's/#[fF]34[bB]7[dD]/#55585E/g' -e 's/#[dD][aA]5[bB]0[bB]/#45484E/g' \
+            -e 's/#[0-9a-fA-F]{6}/\U&/g' *.svg
+          cd ../..
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/mono
+          git diff --cached --quiet || (git commit -m "chore: refresh monochrome stats cards" && git push)
