@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="316" viewBox="0 0 820 316" role="img" aria-label="Animated terminal introducing Lucas Fiori">
   <style>
-    .win{fill:#1a1b27}
-    .bar{fill:#24283b}
-    .t{font:500 15px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#c0caf5}
-    .p{fill:#9ece6a}.c{fill:#7aa2f7}.k{fill:#bb9af7}.s{fill:#e0af68}.m{fill:#7dcfff}.d{fill:#565f89}
+    .win{fill:#0a0a0c;stroke:#26272b;stroke-width:1}
+    .bar{fill:#141518}
+    .t{font:500 15px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#c9cbd1}
+    .p{fill:#a3333d}.c{fill:#8b8f98}.k{fill:#e4e4e4}.s{fill:#c9a961}.m{fill:#9aa5b1}.d{fill:#4b4e55}
     .ln{opacity:0;animation:show .01s forwards}
     .ty{clip-path:inset(0 100% 0 0);animation:type 1.1s steps(40,end) forwards}
     @keyframes show{to{opacity:1}}
@@ -16,18 +16,18 @@
   <rect class="win" width="820" height="316" rx="14"/>
   <rect class="bar" width="820" height="36" rx="14"/>
   <rect class="bar" y="22" width="820" height="14"/>
-  <circle cx="24" cy="18" r="6" fill="#f7768e"/><circle cx="44" cy="18" r="6" fill="#e0af68"/><circle cx="64" cy="18" r="6" fill="#9ece6a"/>
-  <text x="410" y="23" text-anchor="middle" class="t d" style="font-size:13px">lucas@fiori: ~</text>
+  <circle cx="24" cy="18" r="6" fill="#3a3b40"/><circle cx="44" cy="18" r="6" fill="#3a3b40"/><circle cx="64" cy="18" r="6" fill="#3a3b40"/>
+  <text x="410" y="23" text-anchor="middle" class="t d" style="font-size:13px">lucas@gotham: ~</text>
 
   <g class="t">
     <text x="24" y="70"  class="ln ty l1"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> whoami</text>
-    <text x="24" y="96"  class="ln l2">Lucas Fiori <tspan class="d">—</tspan> <tspan class="s">B.Sc. in Computer Science</tspan> <tspan class="d">(graduated 🎓)</tspan></text>
+    <text x="24" y="96"  class="ln l2">Lucas Fiori <tspan class="d">—</tspan> <tspan class="s">B.Sc. in Computer Science</tspan> <tspan class="d">(graduated)</tspan></text>
     <text x="24" y="128" class="ln ty l3"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> cat interests.txt</text>
     <text x="24" y="154" class="ln l4"><tspan class="k">data</tspan> · <tspan class="m">software engineering</tspan> · <tspan class="s">automation</tspan> · <tspan class="p">artificial intelligence</tspan></text>
     <text x="24" y="186" class="ln ty l5"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> ls ./currently</text>
     <text x="24" y="212" class="ln l6"><tspan class="c">building_with_llms/</tspan>  <tspan class="c">automating_the_boring/</tspan>  <tspan class="c">leveling_up_in_cloud/</tspan></text>
     <text x="24" y="244" class="ln ty l7"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> echo $MOTTO</text>
     <text x="24" y="270" class="ln l8"><tspan class="s">"Fragmented data into decisions. Repetitive work into code."</tspan></text>
-    <text x="24" y="298" class="ln l9"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> <tspan class="cur">▌</tspan></text>
+    <text x="24" y="298" class="ln l9"><tspan class="p">➜</tspan> <tspan class="c">~</tspan> <tspan class="cur">█</tspan></text>
   </g>
 </svg>

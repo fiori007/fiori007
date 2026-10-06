@@ -21,7 +21,7 @@ jobs:
           github_user_name: fiori007
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#161b22,#312e81,#5b21b6,#7c3aed,#a78bfa
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c9cbd1&color_dots=#0d1117,#1c1f24,#30343b,#565b63,#8b9098
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
