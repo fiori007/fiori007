@@ -173,8 +173,10 @@ def build(theme, s, vis):
                         f'<tspan class="value">{fmt(s["loc"])}</tspan> ( <tspan class="addColor">{fmt(s["add"])}++</tspan>, '
                         f'<tspan class="delColor">{fmt(s["dele"])}--</tspan> )')
         y += 20
-    height = max(30 + 20 * len(ascii_lines), y) + 10
-    art = "\n".join(f'<tspan x="15" y="{30 + 20 * i}">{esc(l)}</tspan>' for i, l in enumerate(ascii_lines))
+    art_lh = 11  # art is drawn at 9px for a sharper portrait
+    art_top = 30 + max(0, ((y - 30) - art_lh * len(ascii_lines)) // 2)
+    height = max(art_top + art_lh * len(ascii_lines), y) + 10
+    art = "\n".join(f'<tspan x="15" y="{art_top + art_lh * i}">{esc(l)}</tspan>' for i, l in enumerate(ascii_lines))
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="{height}px" font-size="16px">
 <style>
@@ -187,7 +189,7 @@ def build(theme, s, vis):
 text, tspan {{white-space: pre;}}
 </style>
 <rect width="985px" height="{height}px" fill="{c['bg']}" rx="15"/>
-<text x="15" y="30" fill="{c['text']}" class="ascii">
+<text x="15" y="30" fill="{c['text']}" class="ascii" font-size="9px">
 {art}
 </text>
 <text x="{X}" y="30" fill="{c['text']}">

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="540px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="440px" font-size="16px">
 <style>
 @font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
 .key {fill: #953800;}
@@ -9,33 +9,38 @@
 .cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="540px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f" class="ascii">
-<tspan x="15" y="30"></tspan>
-<tspan x="15" y="50">               ,  :     `</tspan>
-<tspan x="15" y="70">            ,`  ;,:,:;   ,</tspan>
-<tspan x="15" y="90">             :!|     ;,  ;::i</tspan>
-<tspan x="15" y="110">          !:!1i;!|il|!|, ;!  i</tspan>
-<tspan x="15" y="130">          ;:fr!1xkhnnxxt!!!  ||</tspan>
-<tspan x="15" y="150">          :,kmhh%wkkkxrf1    :l</tspan>
-<tspan x="15" y="170">           lwxhk1jhhjjrr1rx ,1;</tspan>
-<tspan x="15" y="190">         1jxhhkhnkmm!fxlftH||i;</tspan>
-<tspan x="15" y="210">          Mrkhmhmh%nntxxfj%!1t</tspan>
-<tspan x="15" y="230">          nkkkknmmhf!infrnmir</tspan>
-<tspan x="15" y="250">         ` `hkknhnnrflftrnxf</tspan>
-<tspan x="15" y="270">          ``:hxhhhxrtft1fm</tspan>
-<tspan x="15" y="290">         ``` %rfxtt1l111tm</tspan>
-<tspan x="15" y="310">             kkxkxf|;;;|ft|:</tspan>
-<tspan x="15" y="330">           ,;ikhnnf1ljt, ;`!:,</tspan>
-<tspan x="15" y="350">        `::!:!;tnhnxj!         `,,</tspan>
-<tspan x="15" y="370">     ,:;;;;;:;||||l:;:   ;,`   `,,,:,,,</tspan>
-<tspan x="15" y="390">,`,:;;;;;;;,;!` il:   : ,:,,,:::::,,,,,</tspan>
-<tspan x="15" y="410">!;;;;;;;;;! :;;;;t   | ;;`:::;`::::,,,:</tspan>
-<tspan x="15" y="430">!;;;;;;;;:| ;;;;i|:,| ,;``::;,;::,:,,,;</tspan>
-<tspan x="15" y="450">;;;;!;;!;:| |:;1li1 !`!: :;;,;:,,````;</tspan>
-<tspan x="15" y="470">:;;;;;;!!:| ;;|1lil !:!`,:;,:::,     ,</tspan>
-<tspan x="15" y="490">;:;;;;!;!;| :!!liii:,!,,:;,:::,     :</tspan>
-<tspan x="15" y="510">;`;;;;!!!!!:,;!1li!,;;,:;,:,,`      :</tspan>
+<rect width="985px" height="440px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii" font-size="9px">
+<tspan x="15" y="65"> |</tspan>
+<tspan x="15" y="76"> ;</tspan>
+<tspan x="15" y="87">|:rt;                    ;;;!||||||||||!</tspan>
+<tspan x="15" y="98">. rwkj|:            !jkkwwwwwwwwwwwkkkkwwmwHHWmwwwmmWmmmwhj</tspan>
+<tspan x="15" y="109">  nkxkkx1;       irkhrxnHMhxxrrjjfffffttWWhHMMWmmmmHHMMMHHWWf</tspan>
+<tspan x="15" y="120"> :xHHhxnnxj|::ixwhxjfrwmhxnnnnnnxxxnhrrnW:!WHHmwwkhkmWWWHHHHHH|</tspan>
+<tspan x="15" y="131">  ijwHkhfjfjxkmknxrxmnt111iiiii||!|t1iii!jhwmmkwwkkkkwmmmmmWmmmk</tspan>
+<tspan x="15" y="142">  trnwMWkwkmmmmWh1xwi|i:iiiiii111tt1i|i|ihwkhxrrjrjjjrxnxxthWmmmmx1i|</tspan>
+<tspan x="15" y="153">  nMMHMMMMMft1tj!|xxrrrrrrrrrrrxxxxrrrrxxxxxxxnnnnxxxxxxxrffkWmmmmmmm</tspan>
+<tspan x="15" y="164">  rMHMMMMMr;:::::|tj||!!|!!!!!|i1fft1i|tjrr1it111jxf1|;:;;|||wWWWWWWm</tspan>
+<tspan x="15" y="175">  ;HM####Mhnnhnnnnnnnnnxrrwmmwwkhkkkkhhnrrrjrxxrhknnrfttttjxhwmmmmmww</tspan>
+<tspan x="15" y="186">  r#M###%#hhnnnxxxxxrftt1trnnxrwWWWhhhhhfxnnnxhM####mwmwrnxhkmWM##MMH</tspan>
+<tspan x="15" y="197">  r#M#%%%M:                     ::           ; |WnjWwfr11hMMHwkkwmmHM</tspan>
+<tspan x="15" y="208"> .jM#%%%%%j|;  !|iii1111iii|||! 1hnft1iii|ii1t|jnnnrrffnMHhrxrffftfxw</tspan>
+<tspan x="15" y="219"> .xHM%%%%%#MktfWMM##%%%%%%%###MxxHHHHHHM###%%%%%%%%%#%%#mfrrixmMMHk1.</tspan>
+<tspan x="15" y="230">  r###%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#mrrr;mWmmmHWwr</tspan>
+<tspan x="15" y="241">  r#%%%#%%%##################MMMMMMHMMMMMMMMM%#####%%%Mmhh;iWWmhxWmmx</tspan>
+<tspan x="15" y="252">  j#%%%%%%%%%%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Wmwx.rHHHWWwr.</tspan>
+<tspan x="15" y="263">  j####%%%%%%#wf!    :xmM################M#MM###HwkhhhhkwWmh: !1t| ..</tspan>
+<tspan x="15" y="274">  jMMMMMMMMn  .       .frxkmmmmmmmmmmmmWWWWWWkxtfjjrrrrrrjrnwWkxrnwmH</tspan>
+<tspan x="15" y="285">  fWHwhnrt    |tttii|!::jxnnnf111tfffjjrrxnhftfjrrxxnnnnxxxxrnmWWWWWm</tspan>
+<tspan x="15" y="296">  ifti!    :fj   .  .  1ijrnn!             ifjrxnh|;:|   jhnxxr!:|||f</tspan>
+<tspan x="15" y="307">  i:|1    !j|  1  :  .t.;ijrhr            !frxnk..  f|  x..1nnxn!|f;.</tspan>
+<tspan x="15" y="318">  tWMMMk  jj    .        i!xnk####i   .##Mtxrnw.|m          fnnxnwmwn</tspan>
+<tspan x="15" y="329">  rHHHHh ;nx    .   .    ! rxk#MMMMMMMHMMMjxnhw.         |.  nhnhM###</tspan>
+<tspan x="15" y="340">  jmmmmm||jn|. ;  t   i . |rhmWWmmmwwwwwwwnnnhk! tw      !  1xhhwHHHH</tspan>
+<tspan x="15" y="351">txhhkkhhhfffjf  .. .  .  |rxwmwkhhhnhnnxnhhhkhkh!.    :    ixhwwwmmmm</tspan>
+<tspan x="15" y="362">rrrjjrjjjrfttt||! . :|!itrnkkhnxrrjjfttttfjrnwkhhht     :fxhwmknnnnhn</tspan>
+<tspan x="15" y="373">!||!!!!;;;;!ttjft1tttjxxnhnrjfti||!!;!;;;;!!|1rkmwwkhhhkwwmmhrt1i||i1</tspan>
+<tspan x="15" y="384">                                                 !i1ttttti!:</tspan>
 </text>
 <text x="405" y="30" fill="#24292f">
 <tspan x="405" y="30">lucas@fiori</tspan> -—————————————————————————————————————————-—-
@@ -52,11 +57,11 @@ text, tspan {white-space: pre;}
 <tspan x="405" y="250">- Contact</tspan> -———————————————————————————————————————————-—-
 <tspan x="405" y="270" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">.</tspan><tspan class="key">Personal</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">lucasfmm54@gmail.com</tspan>
 <tspan x="405" y="290" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">lucas-fiori</tspan>
-<tspan x="405" y="310" class="cc">. </tspan><tspan class="key">Profile</tspan><tspan class="cc">.</tspan><tspan class="key">Visitors</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">11</tspan>
+<tspan x="405" y="310" class="cc">. </tspan><tspan class="key">Profile</tspan><tspan class="cc">.</tspan><tspan class="key">Visitors</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">12</tspan>
 <tspan x="405" y="330" class="cc">. </tspan>
 <tspan x="405" y="350">- GitHub Stats</tspan> -——————————————————————————————————————-—-
-<tspan x="405" y="370" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">18</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">1</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">1</tspan>
+<tspan x="405" y="370" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">24</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">1</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">1</tspan>
 <tspan x="405" y="390" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">336</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">8</tspan>
-<tspan x="405" y="410" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> </tspan><tspan class="value">122,437</tspan> ( <tspan class="addColor">384,836++</tspan>, <tspan class="delColor">262,399--</tspan> )
+<tspan x="405" y="410" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> </tspan><tspan class="value">219,216</tspan> ( <tspan class="addColor">486,541++</tspan>, <tspan class="delColor">267,325--</tspan> )
 </text>
 </svg>
