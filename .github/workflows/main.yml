@@ -21,7 +21,7 @@ jobs:
           github_user_name: fiori007
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c9cbd1&color_dots=#0d1117,#1c1f24,#30343b,#565b63,#8b9098
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c9a961&color_dots=#161b22,#1d3a2c,#2c6647,#3e8f62,#56b583
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
@@ -43,22 +43,18 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: -3
 
-      - name: Build monochrome (night) variant
+      - name: Build muted night palette
         run: |
           git pull --ff-only
-          rm -rf profile-summary-card-output/mono
-          cp -r profile-summary-card-output/github_dark profile-summary-card-output/mono
-          cd profile-summary-card-output/mono
-          sed -i -E \
-            -e 's/#40[cC]463/#B9BCC3/g' -e 's/#0366[dD]6/#D0D2D6/g' -e 's/#77909[cC]/#8B9098/g' \
-            -e 's/#[eE]34[cC]26/#6B6E75/g' -e 's/#[bB]07219/#A6A9B0/g' -e 's/#3572[aA]5/#C9CBD1/g' \
-            -e 's/#3178[cC]6/#7D8088/g' -e 's/#[fF]34[bB]7[dD]/#55585E/g' -e 's/#[dD][aA]5[bB]0[bB]/#45484E/g' \
-            -e 's/#[0-9a-fA-F]{6}/\U&/g' *.svg
+          rm -rf profile-summary-card-output/mono profile-summary-card-output/night
+          cp -r profile-summary-card-output/github_dark profile-summary-card-output/night
+          cd profile-summary-card-output/night
+          sed -i -E             -e 's/#40c463/#4F9D73/gI' -e 's/#0366d6/#C9A961/gI' -e 's/#77909c/#8B98A6/gI'             -e 's/#e34c26/#C9694A/gI' -e 's/#b07219/#C9A24D/gI' -e 's/#3572a5/#5F8FC4/gI'             -e 's/#3178c6/#4AA3A0/gI' -e 's/#f34b7d/#B8688F/gI' -e 's/#da5b0b/#B9783F/gI' *.svg
           cd ../..
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output/mono
-          git diff --cached --quiet || (git commit -m "chore: refresh monochrome stats cards" && git push)
+          git add -A profile-summary-card-output/night profile-summary-card-output/mono
+          git diff --cached --quiet || (git commit -m "chore: refresh night stats cards" && git push)
 
   profile-card:
     name: Neofetch profile card

@@ -16,7 +16,8 @@ USER = os.environ.get("USER_NAME", "fiori007")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN", "")
 HEAD = {"Authorization": f"bearer {TOKEN}"} if TOKEN else {}
 ROOT = Path(__file__).resolve().parent.parent
-X = 405
+X = 235
+ART_W, ART_X, ART_LH = 955, 15, 9
 
 WIDTH = 56  # chars from key start to end of value (values right-justified)
 
@@ -141,8 +142,11 @@ def fmt(n):
 
 def build(theme, s, vis):
     c = THEMES[theme]
-    ascii_lines = (ROOT / "profile" / "ascii.txt").read_text(encoding="utf-8").splitlines()
-    rows, y = [], 30
+    ascii_lines = (ROOT / "profile" / f"ascii_{theme}.txt").read_text(encoding="utf-8").splitlines()
+    top = 20
+    art_h = ART_LH * len(ascii_lines)
+    y0 = top + art_h + 35  # info block starts below the picture
+    rows, y = [], y0
     for item in INFO:
         kind = item[0]
         if kind == "header":
@@ -173,10 +177,10 @@ def build(theme, s, vis):
                         f'<tspan class="value">{fmt(s["loc"])}</tspan> ( <tspan class="addColor">{fmt(s["add"])}++</tspan>, '
                         f'<tspan class="delColor">{fmt(s["dele"])}--</tspan> )')
         y += 20
-    art_lh = 11  # art is drawn at 9px for a sharper portrait
-    art_top = 30 + max(0, ((y - 30) - art_lh * len(ascii_lines)) // 2)
-    height = max(art_top + art_lh * len(ascii_lines), y) + 10
-    art = "\n".join(f'<tspan x="15" y="{art_top + art_lh * i}">{esc(l)}</tspan>' for i, l in enumerate(ascii_lines))
+    height = y - 20 + 15
+    art = "\n".join(
+        f'<text x="{ART_X}" y="{top + ART_LH * (i + 1)}" textLength="{ART_W}" lengthAdjust="spacing">{esc(l)}</text>'
+        for i, l in enumerate(ascii_lines))
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="{height}px" font-size="16px">
 <style>
@@ -189,10 +193,10 @@ def build(theme, s, vis):
 text, tspan {{white-space: pre;}}
 </style>
 <rect width="985px" height="{height}px" fill="{c['bg']}" rx="15"/>
-<text x="15" y="30" fill="{c['text']}" class="ascii" font-size="9px">
+<g fill="{c['text']}" font-size="9px" class="ascii">
 {art}
-</text>
-<text x="{X}" y="30" fill="{c['text']}">
+</g>
+<text fill="{c['text']}">
 {chr(10).join(rows)}
 </text>
 </svg>
